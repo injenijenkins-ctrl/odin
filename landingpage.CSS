@@ -7,7 +7,7 @@ header {
     display: flex;
     justify-content:space-between;
     align-items:center;
-    background-color: #faf6f3;
+    background-color: #fbf4ef;
     padding: 10px 40px;
     position: sticky;
     top: 0;
@@ -193,7 +193,7 @@ blockquote p{
     list-style-type:none;
     display:flex;
     gap: 20px;
-    color:#fff;
+    color:#f7f1f1;
 }
 .recipe-categories{
     display:flex;
@@ -201,7 +201,7 @@ blockquote p{
     justify-content:center;
     padding: 50px;
 }
-.recipe-categories a {
+.recipe-categories a{
     text-decoration:none;
     list-style-type:none;
     display: inline-block;
@@ -212,7 +212,9 @@ blockquote p{
     border-radius:20px;
     font-weight:bold
 }
-
+.recipe-categories li{
+    list-style-type:none;
+}
 .recipe-categories a:hover {
     background:#1f510e
 }
