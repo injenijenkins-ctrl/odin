@@ -74,8 +74,10 @@ nav a:hover{
     display: flex; 
     gap: 30px;
     justify-content:center;
+    flex-wrap:wrap;
 }
 .recipe-card{
+    position: relative;
     width: 300px;
     margin: 20px;
     text-align:center;
@@ -239,4 +241,34 @@ blockquote p{
     font-size: 30px;
     margin-bottom: 5px;
     margin-left:150px;
+}
+.heart-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #0e0e0e;
+    text-decoration: none;
+    background: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    border-radius:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heart-icon:hover {
+    color: #ff6b6b;
+}
+.intro{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.intro-image{
+    width:800px;
+    max-width:800px;
+    border-radius:20px;
+    
 }
