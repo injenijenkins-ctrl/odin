@@ -266,7 +266,7 @@ blockquote p{
     justify-content: space-between;
     padding: 50px;
 }
-.intro-image{
+.intro-image img{
     width:800px;
     max-width:800px;
     border-radius:20px;
